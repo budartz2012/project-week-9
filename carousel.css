@@ -125,7 +125,9 @@ body {
   position: static;
 }*/
 
-
+.carousel-inner{
+  margin-bottom:50px;
+}
 
 .carousel .item {
   height: 740px;
@@ -134,13 +136,24 @@ body {
 
 #two {
   height: 740px;
-  background-color: grey;
+  background-color: white;
 }
 
 #three {
    height: 245px;
    background-color: #EC418F;
 }
+
+#four{
+     background-color: #4D4E4E;
+
+}
+.carousel-caption{
+padding-bottom: 300px;
+
+}
+
+
 
 .controlsBlock{
   position: relative;
@@ -163,7 +176,7 @@ body {
 
 .carousel-control {
     position: absolute;
-    top: -100px;
+    top: -150px;
     bottom: 0;
     left: 0;
     background: #000000;
@@ -175,14 +188,15 @@ body {
 
 .carousel-indicators {
     position: absolute;
-    top: -100px;
+    top: -150px;
     bottom: 0;
-    left: 50;
+    /*left: 50;*/
     background: #000000;
     font-size: 25px;
     background: none !important;
     /*color: blue;*/
-    text-align: center;
+    /*text-align: center;*/
+    margin-bottom:150px;
 
 }
 
@@ -193,6 +207,16 @@ body {
 .carousel-control.right {
     right: 0;
     
+}
+
+.btn_car{
+  position: absolute;
+  top: -100px;
+  right: 42px;
+  border-radius: 15px;
+  background-color: #3071a9;
+  border-color: #285e8e;
+  padding:10px; 
 }
 
 
@@ -219,7 +243,10 @@ body {
 }
 
 
+#four + h3 + p {
 
+  color: white;
+}
 
 
 /* Map
@@ -254,8 +281,8 @@ body {
   }
 }*/
 
-@media screen and (max-width: 480px) {
+/*@media screen and (max-width: 480px) {
     .xp{
         flex-direction: row;
     }
-}
+}*/
